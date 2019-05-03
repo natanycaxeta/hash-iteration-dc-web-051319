@@ -17,7 +17,7 @@ def age_appropriate_birthday(birthday_kids)
       "Amanda" => 27
     }
   birthday_kids.each do |kids_name, age|
-    while age > 12
+    if age == 27
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
 end
