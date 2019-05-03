@@ -18,7 +18,7 @@ def age_appropriate_birthday(birthday_kids)
       "Amanda" => 27
     }
   birthday_kids.each do |kids_name, age|
- # if age > 12
+ # if age < 12
     puts 
  # else
     puts 
